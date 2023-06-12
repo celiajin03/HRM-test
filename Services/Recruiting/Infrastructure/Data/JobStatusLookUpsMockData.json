@@ -1,0 +1,17 @@
+[
+  {
+    "Id": 1,
+    "JobStatusCode": "Open",
+    "JobStatusDescription": "Job is Open"
+  },
+  {
+    "Id": 2,
+    "JobStatusCode": "Pending",
+    "JobStatusDescription": "Job is Pending"
+  },
+  {
+    "Id": 3,
+    "JobStatusCode": "Closed",
+    "JobStatusDescription": "Job is Closed"
+  }
+]

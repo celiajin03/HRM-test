@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "InterviewTypeCode": "P",
+    "InterviewTypeDescription": "Phone Screen"
+  },
+  {
+    "id": 2,
+    "InterviewTypeCode": "T",
+    "InterviewTypeDescription": "Technical Interview"
+  },
+  {
+    "id": 3,
+    "InterviewTypeCode": "B",
+    "InterviewTypeDescription": "Behavioral Interview"
+  },
+  {
+    "id": 4,
+    "InterviewTypeCode": "C",
+    "InterviewTypeDescription": "Case Interview"
+  },
+  {
+    "id": 5,
+    "InterviewTypeCode": "S",
+    "InterviewTypeDescription": "Stress Interview"
+  },
+  {
+    "id": 6,
+    "InterviewTypeCode": "O",
+    "InterviewTypeDescription": "On-site Interview"
+  }
+]

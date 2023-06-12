@@ -1,0 +1,12 @@
+/Users/celia/Desktop/Antra/Net/HRM/Services/Interviews/ApplicationCore/bin/Debug/net6.0/ApplicationCore.deps.json
+/Users/celia/Desktop/Antra/Net/HRM/Services/Interviews/ApplicationCore/bin/Debug/net6.0/ApplicationCore.dll
+/Users/celia/Desktop/Antra/Net/HRM/Services/Interviews/ApplicationCore/bin/Debug/net6.0/ApplicationCore.pdb
+/Users/celia/Desktop/Antra/Net/HRM/Services/Interviews/ApplicationCore/obj/Debug/net6.0/ApplicationCore.csproj.AssemblyReference.cache
+/Users/celia/Desktop/Antra/Net/HRM/Services/Interviews/ApplicationCore/obj/Debug/net6.0/ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/celia/Desktop/Antra/Net/HRM/Services/Interviews/ApplicationCore/obj/Debug/net6.0/ApplicationCore.AssemblyInfoInputs.cache
+/Users/celia/Desktop/Antra/Net/HRM/Services/Interviews/ApplicationCore/obj/Debug/net6.0/ApplicationCore.AssemblyInfo.cs
+/Users/celia/Desktop/Antra/Net/HRM/Services/Interviews/ApplicationCore/obj/Debug/net6.0/ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/celia/Desktop/Antra/Net/HRM/Services/Interviews/ApplicationCore/obj/Debug/net6.0/ApplicationCore.dll
+/Users/celia/Desktop/Antra/Net/HRM/Services/Interviews/ApplicationCore/obj/Debug/net6.0/refint/ApplicationCore.dll
+/Users/celia/Desktop/Antra/Net/HRM/Services/Interviews/ApplicationCore/obj/Debug/net6.0/ApplicationCore.pdb
+/Users/celia/Desktop/Antra/Net/HRM/Services/Interviews/ApplicationCore/obj/Debug/net6.0/ref/ApplicationCore.dll

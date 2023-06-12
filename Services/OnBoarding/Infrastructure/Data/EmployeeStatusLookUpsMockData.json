@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "EmployeeStatusCode": "Active",
+    "EmployeeStatusDescription": "The employee is currently employed"
+  },
+  {
+    "Id": 2,
+    "EmployeeStatusCode": "On Leave",
+    "EmployeeStatusDescription": "The employee is on an approved leave of absence"
+  },
+  {
+    "Id": 3,
+    "EmployeeStatusCode": "Terminated",
+    "EmployeeStatusDescription": "The employee's employment has been terminated"
+  },
+  {
+    "Id": 4,
+    "EmployeeStatusCode": "Onboarding",
+    "EmployeeStatusDescription": "The employee is in the process of being onboarded"
+  }
+]

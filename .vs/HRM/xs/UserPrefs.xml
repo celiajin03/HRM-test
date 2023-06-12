@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{9753BB06-225A-4E86-8147-9E046222B874}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Recruiting.RecruitingWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Recruiting/Infrastructure/Services/JobsMongoDbService.cs">
+    <Files>
+      <File FileName="Services/Recruiting/Infrastructure/Services/JobsMongoDbService.cs" Line="29" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HRM" expanded="True">
+            <Node name="Recruiting" expanded="True">
+              <Node name="ApplicationCore" expanded="True">
+                <Node name="Contracts" expanded="True">
+                  <Node name="Services" expanded="True" />
+                </Node>
+                <Node name="Models" expanded="True" />
+              </Node>
+              <Node name="Infrastructure" expanded="True">
+                <Node name="Repositories" expanded="True" />
+                <Node name="Services" expanded="True">
+                  <Node name="JobsMongoDbService.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="RecruitingWeb" expanded="True">
+                <Node name="Dependencies" expanded="True" />
+                <Node name="Controllers" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="Home" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/celia/Desktop/Antra/Net/HRM/Services/Recruiting/RecruitingWeb/Controllers/JobsController.cs" relfile="Services/Recruiting/RecruitingWeb/Controllers/JobsController.cs" line="21" column="9" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

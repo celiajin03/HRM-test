@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "JobId": 1,
+    "CandidateId": 1,
+    "SubmittedOn": "2023-05-20T09:00:00Z",
+    "SelectedForInterview": null,
+    "RejectedOn": null,
+    "RejectedReason": null
+  },
+  {
+    "Id": 2,
+    "JobId": 2,
+    "CandidateId": 2,
+    "SubmittedOn": "2023-05-21T10:30:00Z",
+    "SelectedForInterview": null,
+    "RejectedOn": null,
+    "RejectedReason": null
+  },
+  {
+    "Id": 3,
+    "JobId": 3,
+    "CandidateId": 3,
+    "SubmittedOn": "2023-05-22T14:15:00Z",
+    "SelectedForInterview": null,
+    "RejectedOn": null,
+    "RejectedReason": null
+  },
+  {
+    "Id": 4,
+    "JobId": 1003,
+    "CandidateId": 4,
+    "SubmittedOn": "2023-05-23T16:45:00Z",
+    "SelectedForInterview": null,
+    "RejectedOn": null,
+    "RejectedReason": null
+  },
+  {
+    "Id": 5,
+    "JobId": 5,
+    "CandidateId": 5,
+    "SubmittedOn": "2023-05-24T11:00:00Z",
+    "SelectedForInterview": null,
+    "RejectedOn": null,
+    "RejectedReason": null
+  },
+  {
+    "Id": 6,
+    "JobId": 6,
+    "CandidateId": 6,
+    "SubmittedOn": "2023-05-25T09:30:00Z",
+    "SelectedForInterview": null,
+    "RejectedOn": null,
+    "RejectedReason": null
+  },
+  {
+    "Id": 7,
+    "JobId": 7,
+    "CandidateId": 7,
+    "SubmittedOn": "2023-05-26T13:20:00Z",
+    "SelectedForInterview": null,
+    "RejectedOn": null,
+    "RejectedReason": null
+  },
+  {
+    "Id": 8,
+    "JobId": 8,
+    "CandidateId": 8,
+    "SubmittedOn": "2023-05-27T10:10:00Z",
+    "SelectedForInterview": null,
+    "RejectedOn": null,
+    "RejectedReason": null
+  }
+]
