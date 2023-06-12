@@ -25,25 +25,25 @@ public class RecruitingDbContext: DbContext
         // Action<EntityTypeBuilder<TEntity>> buildAction)  
         
         // Jobs
-        string LocationOfJobsJsonData = "../Infrastructure/Data/JobsMockData.json";
+        string LocationOfJobsJsonData = "./Infrastructure/Data/JobsMockData.json";
         var JobsJsonData = File.ReadAllText(LocationOfJobsJsonData);
         IList<Job> Jobs = JsonConvert.DeserializeObject<IList<Job>>(JobsJsonData);
         modelBuilder.Entity<Job>().HasData(Jobs);
         
         // JobStatusLookUps
-        string LocationOfJobStatusLookUpsJsonData = "../Infrastructure/Data/JobStatusLookUpsMockData.json";
+        string LocationOfJobStatusLookUpsJsonData = "./Infrastructure/Data/JobStatusLookUpsMockData.json";
         var JobStatusLookUpsJsonData = File.ReadAllText(LocationOfJobStatusLookUpsJsonData);
         IList<JobStatusLookUp> JobStatusLookUps = JsonConvert.DeserializeObject<IList<JobStatusLookUp>>(JobStatusLookUpsJsonData);
         modelBuilder.Entity<JobStatusLookUp>().HasData(JobStatusLookUps);
         
         // Candidates
-        string LocationOfCandidatesJsonData = "../Infrastructure/Data/CandidatesMockData.json";
+        string LocationOfCandidatesJsonData = "./Infrastructure/Data/CandidatesMockData.json";
         var CandidatesJsonData = File.ReadAllText(LocationOfCandidatesJsonData);
         IList<Candidate> Candidates = JsonConvert.DeserializeObject<IList<Candidate>>(CandidatesJsonData);
         modelBuilder.Entity<Candidate>().HasData(Candidates);
         
         // Submissions
-        string LocationOfSubmissionsJsonData = "../Infrastructure/Data/SubmissionsMockData.json";
+        string LocationOfSubmissionsJsonData = "./Infrastructure/Data/SubmissionsMockData.json";
         var SubmissionsJsonData = File.ReadAllText(LocationOfSubmissionsJsonData);
         IList<Submission> Submissions = JsonConvert.DeserializeObject<IList<Submission>>(SubmissionsJsonData);
         modelBuilder.Entity<Submission>().HasData(Submissions);
