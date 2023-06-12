@@ -25,7 +25,8 @@ public class RecruitingDbContext: DbContext
         // Action<EntityTypeBuilder<TEntity>> buildAction)  
         
         // Jobs
-        string LocationOfJobsJsonData = "JobsMockData.json";
+        string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+        string LocationOfJobsJsonData = Path.Combine(baseDirectory, "JobsMockData.json");
         var JobsJsonData = File.ReadAllText(LocationOfJobsJsonData);
         IList<Job> Jobs = JsonConvert.DeserializeObject<IList<Job>>(JobsJsonData);
         modelBuilder.Entity<Job>().HasData(Jobs);
