@@ -1,0 +1,42 @@
+name: Trigger auto deployment for recruiting-container-test
+
+# When this action will be executed
+on:
+  # Automatically trigger it when detected changes in repo
+  push:
+    branches: 
+      [ master ]
+    paths:
+    - 'Services/Recruiting/**'
+    - '.github/workflows/recruiting-container-test-AutoDeployTrigger-eb4390fe-1563-4639-8697-ef6a91e99a84.yml'
+
+  # Allow mannually trigger 
+  workflow_dispatch:
+      
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout to the branch
+        uses: actions/checkout@v2
+
+      - name: Azure Login
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.RECRUITINGCONTAINERTEST_AZURE_CREDENTIALS }}
+
+      - name: Build and push container image to registry
+        uses: azure/container-apps-deploy-action@v1
+        with:
+          appSourcePath: ${{ github.workspace }}/Services/Recruiting 
+          registryUrl: antra2023cr.azurecr.io
+          registryUsername: ${{ secrets.RECRUITINGCONTAINERTEST_REGISTRY_USERNAME }}
+          registryPassword: ${{ secrets.RECRUITINGCONTAINERTEST_REGISTRY_PASSWORD }}
+          containerAppName: recruiting-container-test
+          resourceGroup: AntraNetFullstack
+          imageToBuild: antra2023cr.azurecr.io/recruiting-container-test:${{ github.sha }}
+          dockerfilePath: Dockerfile
+
+     
+
