@@ -6,8 +6,8 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["Recruiting.API/Recruiting.API.csproj", "Services/Recruiting/"]
-COPY ["ApplicationCore/", "Services/Recruiting/"]
-COPY ["Infrastructure/", "Services/Recruiting/"]
+COPY ["ApplicationCore/ApplicationCore.csproj", "Services/Recruiting/"]
+COPY ["Infrastructure/Infrastructure.csproj", "Services/Recruiting/"]
 RUN dotnet restore "Services/Recruiting/Recruiting.API/Recruiting.API.csproj"
 COPY . .
 WORKDIR "/src/Services/Recruiting/Recruiting.API"
