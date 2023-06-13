@@ -26,7 +26,9 @@ public class RecruitingDbContext: DbContext
         
         // Jobs
         string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
-        string LocationOfJobsJsonData = Path.Combine(baseDirectory, "HRM-test/Services/Recruiting/Infrastructure/Data/JobsMockData.json");
+        Console.WriteLine($"Base Directory: {AppDomain.CurrentDomain.BaseDirectory}");
+
+        string LocationOfJobsJsonData = Path.Combine(baseDirectory, "Services/Recruiting/Infrastructure/Data/JobsMockData.json");
         var JobsJsonData = File.ReadAllText(LocationOfJobsJsonData);
         IList<Job> Jobs = JsonConvert.DeserializeObject<IList<Job>>(JobsJsonData);
         modelBuilder.Entity<Job>().HasData(Jobs);
