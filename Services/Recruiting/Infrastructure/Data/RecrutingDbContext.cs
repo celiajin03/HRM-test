@@ -29,7 +29,7 @@ public class RecruitingDbContext: DbContext
         // Console.WriteLine($"Base Directory: {AppDomain.CurrentDomain.BaseDirectory}");
 
         // string LocationOfJobsJsonData = Path.Combine(baseDirectory, "./Infrastructure/Data/JobsMockData.json");
-        string LocationOfJobsJsonData = "./Infrastructure/Data/JobsMockData.json";
+        string LocationOfJobsJsonData = "../Infrastructure/Data/JobsMockData.json";
         var JobsJsonData = File.ReadAllText(LocationOfJobsJsonData);
         IList<Job> Jobs = JsonConvert.DeserializeObject<IList<Job>>(JobsJsonData);
         modelBuilder.Entity<Job>().HasData(Jobs);
