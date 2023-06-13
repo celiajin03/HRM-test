@@ -25,10 +25,11 @@ public class RecruitingDbContext: DbContext
         // Action<EntityTypeBuilder<TEntity>> buildAction)  
         
         // Jobs
-        string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
-        Console.WriteLine($"Base Directory: {AppDomain.CurrentDomain.BaseDirectory}");
+        // string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+        // Console.WriteLine($"Base Directory: {AppDomain.CurrentDomain.BaseDirectory}");
 
-        string LocationOfJobsJsonData = Path.Combine(baseDirectory, "JobsMockData.json");
+        // string LocationOfJobsJsonData = Path.Combine(baseDirectory, "./Infrastructure/Data/JobsMockData.json");
+        string LocationOfJobsJsonData = "./Infrastructure/Data/JobsMockData.json";
         var JobsJsonData = File.ReadAllText(LocationOfJobsJsonData);
         IList<Job> Jobs = JsonConvert.DeserializeObject<IList<Job>>(JobsJsonData);
         modelBuilder.Entity<Job>().HasData(Jobs);
