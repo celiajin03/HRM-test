@@ -18,7 +18,7 @@ RUN dotnet publish "Recruiting.API.csproj" -c Release -o /app/publish /p:UseAppH
 
 FROM base AS final
 WORKDIR /app
-COPY ["Infrastructure/Data/JobsMockData.json", "Services/Recruiting/Infrastructure/"]
+COPY ["Infrastructure/Data", "Services/Recruiting/Infrastructure/Data"]
 COPY --from=publish /app/publish .
 ENV angularURL='http://localhost:4200'
 ENTRYPOINT ["dotnet", "Recruiting.API.dll"]
