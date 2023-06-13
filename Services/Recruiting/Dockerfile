@@ -8,6 +8,7 @@ WORKDIR /src
 COPY ["Recruiting.API/", "Services/Recruiting/Recruiting.API/"]
 COPY ["ApplicationCore/", "Services/Recruiting/ApplicationCore/"]
 COPY ["Infrastructure/", "Services/Recruiting/Infrastructure/"]
+COPY ["Infrastructure/Data/JobsMockData.json", "Services/Recruiting/Infrastructure/"]
 RUN dotnet restore "Services/Recruiting/Recruiting.API/Recruiting.API.csproj"
 COPY . .
 WORKDIR "/src/Services/Recruiting/Recruiting.API"
